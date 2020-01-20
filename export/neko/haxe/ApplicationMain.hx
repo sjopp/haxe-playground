@@ -32,10 +32,10 @@ class ApplicationMain
 
 		ManifestResources.init(config);
 
-		app.meta["build"] = "18";
+		app.meta["build"] = "3";
 		app.meta["company"] = "HaxeFlixel";
 		app.meta["file"] = "HelloWorld";
-		app.meta["name"] = "HelloWorld";
+		app.meta["name"] = "Haxe Playground";
 		app.meta["packageName"] = "com.example.myapp";
 		app.meta["version"] = "0.0.1";
 
@@ -57,7 +57,7 @@ class ApplicationMain
 			minimized: false,
 			parameters: {},
 			resizable: true,
-			title: "HelloWorld",
+			title: "Haxe Playground",
 			width: 640,
 			x: null,
 			y: null,
